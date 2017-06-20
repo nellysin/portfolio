@@ -5,53 +5,72 @@
 </head>
 <body>
 
-<h1>Nelly Sin</h1>
+	<h1>Nelly Sin</h1>
+<ul>
+	<li><a class="active" href="aboutme.html">About Me</a></li>
+  <li><a href="More.html">More</a></li>
+  <li><a href="funfact.html">Facts</a></li>
+</ul>
+	
+<h2> Who Am I?</h2>
 
-<p>Hi! My name is Nelly and I go to Galileo High School as an incoming junior. I live with my mom, dad, and an older sister in San Francisco. I was born and raised in the bay area and lived in SF my entire 16 years. I'm interested in computer science so I joined Girls Who Code!</p>
-
-<h2> What I like: </h2>
-
-<img src="https://lh4.ggpht.com/KEgzwREN1m0CG4EumXt__lJ-SuH6136514e4JOMHLTSSvM8ENzH4Ttk94w4ESzbgwso=w300"/>
-<p> In my free time I enjoy reading web comics. It's interesting and it's addicting. There are many artists and many genres and story lines.</p>
-
-<img src="http://www.hamiltonbroadway.com/_img/ham-FB.jpg"/>
-<p> I LOVE HAMILTON! It's my first musical I'm interested and I started to be interested in more musicals because of it. I listen and sing along to the music daily. This musical is unique mixing rap and U.S history along fits this musical well.
-	<h3> What I dislike:</h3>
- <img src="http://p8cdn4static.sharpschool.com/UserFiles/Servers/Server_47362/Image/world-history.jpg"/>
- <p> I don't really like world history, I'm mostly interested in U.S history.</p>
- <img src="https://draxe.com/wp-content/uploads/2015/04/bigstock-Fresh-green-celery-isolated-on-52080031.jpg"/>
- <p> I hate celery. My taste buds hate celery too.
-<img src="http://imgur.com/bLN19TZ"/>
+<p class="one">Hi! My name is Nelly and I go to Galileo High School as an incoming junior. I live with my mom, dad, and an older sister in San Francisco. I was born and raised in the bay area and live in SF bayview district my entire 16 years. I'm interested in computer science so I joined Girls Who Code!</p>
+	
+<img src="http://justdoit.attojs.com/tripguide/images/portola.jpg"/>
     
 </body>
 <style>
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #990033;
+}
+
+.active {
+    background-color: #990033;
+}
     
 	h1{
 	color:#f2f2f2;
     text-align:center;
 }
-
 	body{
     background-color:#bb99ff;
     font-family: courier new;
     text-align:center;
-
+	font-size: 30px;
 }
-
 	h2{
     color:#f2f2f2;
     text-align:center;
 }
-
 	h3{
     color:#f2f2f2;
     text-align:center;
 }   
-	img{
-    width:100px;
-    height:100px;
-    padding:10px;
-}   
-
+ 
+	p.one{
+		border-style:dotted;
+		border-width:2px;
+	}
 </style>
 </html>
